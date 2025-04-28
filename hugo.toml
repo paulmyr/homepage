@@ -1,0 +1,67 @@
+baseurl = "http://www.paulmyr.com"
+title = "paulmyr"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Paul Mayer"
+  info = "Computer Scientist, machine learning aficionado & certified senior rubber duck president."
+  description = "homepage and blog"
+  keywords = "blog,developer,personal"
+  avatarurl = "/img/avatar.png"
+#gravatar = "paul@mayer-zuffenhausen.de"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2025
+
+  enableTwemoji = true
+
+  colorScheme = "light"
+  hidecolorschemetoggle = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/paulmyr/"
+[[params.social]]
+  name = "Mail"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 2
+  url = "mailto:blogATpaulmyrDOTde"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
