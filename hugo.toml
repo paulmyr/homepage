@@ -65,3 +65,7 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "about/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
