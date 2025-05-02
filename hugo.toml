@@ -16,7 +16,7 @@ style = "github-dark"
 
 [params]
   author = "Paul Mayer"
-  info = "Computer Scientist, machine learning aficionado & certified senior rubber duck president."
+  info = "Computer Scientist, CFD Aficionado & Certified Senior Rubber Duck President."
   description = "homepage and blog"
   keywords = "blog,developer,personal"
   avatarurl = "/img/avatar.png"
